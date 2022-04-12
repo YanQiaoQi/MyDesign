@@ -1,0 +1,14 @@
+{
+  "name": "mydesign",
+  "version": "1.0.0",
+  "description": "my component gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "MyDesin"
+  ],
+  "author": "YanQiaoQi",
+  "license": "MIT"
+}
