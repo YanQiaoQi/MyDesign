@@ -1,22 +1,41 @@
 {
-  "name": "mydesign",
-  "version": "1.0.0",
-  "description": "我的组件库",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YanQiaoQi/MyDesign.git"
-  },
-  "keywords": [
-    "MyDesign"
-  ],
-  "author": "YanQiaoQi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/YanQiaoQi/MyDesign/issues"
-  },
-  "homepage": "https://github.com/YanQiaoQi/MyDesign#readme"
+	"name": "mydesign",
+	"version": "1.0.0",
+	"description": "我的组件库",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "webpack-dev-server --mode development",
+		"build": "npx webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YanQiaoQi/MyDesign.git"
+	},
+	"keywords": [
+		"MyDesign"
+	],
+	"author": "YanQiaoQi",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/YanQiaoQi/MyDesign/issues"
+	},
+	"homepage": "https://github.com/YanQiaoQi/MyDesign#readme",
+	"devDependencies": {
+		"@babel/cli": "^7.17.6",
+		"@babel/core": "^7.17.9",
+		"@babel/preset-env": "^7.16.11",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.4",
+		"css-loader": "^6.7.1",
+		"html-webpack-plugin": "^5.5.0",
+		"style-loader": "^3.3.1",
+		"webpack": "^5.72.0",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.8.1"
+	},
+	"dependencies": {
+		"react": "^18.0.0",
+		"react-dom": "^18.0.0"
+	}
 }
