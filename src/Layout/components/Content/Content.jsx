@@ -1,6 +1,12 @@
 import React from "react";
-function Content({}) {
-	return <div>Content</div>;
+import styles from "./Content.less";
+
+function Content({ children }) {
+	return (
+		<div className={styles.content_container}>
+			{children}
+		</div>
+	);
 }
 
 export default Content;

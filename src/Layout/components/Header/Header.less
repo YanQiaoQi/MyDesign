@@ -1,0 +1,43 @@
+@header-width: 1024px;
+@header-height: 64px;
+
+@header-left-width: 270px;
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	width: 100%;
+	height: @header-height;
+
+	font-family: "Inter", -apple-system, BlinkMacSystemFont,
+		"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+		"Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+/*container*/
+.fixed_container {
+	.container;
+	position: fixed;
+	top: 0;
+
+	font-size: 0.875rem;
+	backdrop-filter: saturate(180%) blur(5px);
+	// box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+.common_container {
+	.container;
+}
+
+.header_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	width: @header-width;
+	height: @header-height;
+
+	margin: auto;
+}
