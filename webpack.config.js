@@ -62,7 +62,6 @@ module.exports = {
 	},
 
 	plugins: [
-		new webpack.HotModuleReplacementPlugin(),
 		new HtmlWebpackPlugin({
 			template: "./public/index.html",
 			inject: "body",
